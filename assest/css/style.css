@@ -1,0 +1,64 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-link:hover {
+    color: #ffc107 !important;
+    transition: color 0.3s ease;
+}
+
+
+.main-carousel-img {
+    height: 500px;
+    object-fit: cover;
+}
+
+
+.progress-html-css {
+    width: 95%;
+}
+.progress-bootstrap {
+    width: 90%;
+}
+.progress-js {
+    width: 80%;
+}
+
+/* Portfolio Layouts */
+.timeline-wrapper {
+    border-left: 2px solid #198754;
+}
+.portfolio-form-container {
+    max-width: 600px;
+}
+
+/* Service Grids */
+.filter-grayscale {
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+.filter-grayscale:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+.service-faq-container {
+    max-width: 800px;
+}
+
+
+.map-container {
+    height: 350px;
+    border: 0;
+}
+/* অ্যালার্ট বক্সকে স্ক্রিনের ওপরে ফিক্সড করার স্টাইল */
+.fixed-top-alert {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}

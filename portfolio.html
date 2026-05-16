@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Qualification & Work</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-success text-white text-center py-5 shadow-sm">
+        <h1 class="display-5 fw-bold">My Portfolio</h1>
+        <p class="lead mb-0">A comprehensive showcase of qualifications and skills</p>
+    </div>
+
+    <section class="py-5 container">
+        <div class="card shadow-sm border-0 p-4 bg-light">
+            <h3 class="border-bottom pb-2 text-success fw-bold"><i class="bi bi-person-fill"></i> Personal Information</h3>
+            <div class="row mt-3 g-2 text-dark">
+                <div class="col-md-6"><strong>Full Name:</strong> Ayesha Siddiqua</div>
+                <div class="col-md-6"><strong>Email:</strong> ayeshasidd875@gmail.com</div>
+                <div class="col-md-6"><strong>Phone:</strong> +880 123456789</div>
+                <div class="col-md-6"><strong>Address:</strong> Chittagong, Bangladesh</div>
+                <div class="col-md-6"><strong>Website:</strong> www.Ayesha.com</div>
+                <div class="col-md-6"><strong>Languages:</strong> Bangla, English</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 container">
+        <h3 class="border-bottom pb-2 text-success fw-bold"><i class="bi bi-mortarboard-fill"></i> Education Information</h3>
+        <div class="row mt-4 g-4">
+            <div class="col-md-6">
+                <div class="p-3 border rounded bg-white shadow-sm h-100">
+                    <h5 class="fw-bold">MSC. in mathematics</h5>
+                    <p class="text-muted mb-2">XYZ University </p>
+                    <span class="badge bg-success">CGPA: 3.85 / 4.00</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-3 border rounded bg-white shadow-sm h-100">
+                    <h5 class="fw-bold">Higher Secondary Certificate (HSC)</h5>
+                    <p class="text-muted mb-2">ABC College </p>
+                    <span class="badge bg-success">GPA: 5.00 / 5.00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 container bg-light rounded shadow-sm">
+        <h3 class="border-bottom pb-2 text-success text-center mb-4 fw-bold"><i class="bi bi-star-fill"></i> Special Skills</h3>
+        <div class="row text-center g-3">
+            <div class="col-6 col-md-3">
+                <div class="p-3 bg-white border rounded shadow-sm">
+                    <i class="bi bi-code-slash text-primary fs-2"></i>
+                    <h6 class="mt-2 fw-bold mb-0">Web Development</h6>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="p-3 bg-white border rounded shadow-sm">
+                    <i class="bi bi-layers text-warning fs-2"></i>
+                    <h6 class="mt-2 fw-bold mb-0">UI/UX Layouts</h6>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="p-3 bg-white border rounded shadow-sm">
+                    <i class="bi bi-database text-danger fs-2"></i>
+                    <h6 class="mt-2 fw-bold mb-0">Database Admin</h6>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="p-3 bg-white border rounded shadow-sm">
+                    <i class="bi bi-lightning-charge text-info fs-2"></i>
+                    <h6 class="mt-2 fw-bold mb-0">Problem Solving</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 container text-center">
+        <h3 class="mb-3 text-success fw-bold"><i class="bi bi-patch-check-fill"></i> Training & Certifications</h3>
+        <p class="text-muted mb-4">Click the button below to view my professional training details and certificates.</p>
+        
+        <button type="button" class="btn btn-success btn-lg shadow" data-bs-toggle="modal" data-bs-target="#certModal">
+            View Certifications
+        </button>
+
+        <div class="modal fade" id="certModal" tabindex="-1" aria-labelledby="certModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header bg-success text-white">
+                        <h5 class="modal-title" id="certModalLabel">My Training & Certifications</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-start">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <h6 class="fw-bold mb-1">1. Full-Stack Web Development Training</h6>
+                                <p class="mb-0 text-muted small">Issued by: Tech Academy (6 Months Intensive Course)</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h6 class="fw-bold mb-1">2. Advanced Responsive Design with Bootstrap</h6>
+                                <p class="mb-0 text-muted small">Issued by: Online Coursera Verification</p>
+                            </li>
+                            <li class="list-group-item">
+                                <h6 class="fw-bold mb-1">3. JavaScript Fundamentals & ES6+</h6>
+                                <p class="mb-0 text-muted small">Issued by: DevNetwork Org</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 container bg-light rounded ps-4">
+        <h3 class="border-bottom pb-2 text-success mb-4 fw-bold"><i class="bi bi-briefcase-fill"></i> Working Experience</h3>
+        <div class="timeline-wrapper position-relative ps-3">
+            <div class="mb-4">
+                <h5 class="fw-bold mb-1">Senior Web Developer</h5>
+                <p class="text-success mb-1 fw-bold">NSDA (2024 - Present)</p>
+                <p class="text-muted">Responsibilities include creating scalable layouts using Bootstrap, handling client requirement forms, and implementing modern interactive scripts.</p>
+            </div>
+            <div>
+                <h5 class="fw-bold mb-1">Junior Frontend Developer (Intern)</h5>
+                <p class="text-success mb-1 fw-bold">Creative IT(2023 - 2024)</p>
+                <p class="text-muted mb-0">Assisted the core engineering team in crafting modern dynamic web architectures and clean component integration.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 container portfolio-form-container">
+        <h3 class="text-center mb-4 fw-bold">Contact to Order Service</h3>
+        <form id="orderForm" class="p-4 border rounded bg-white shadow-sm">
+            <div class="mb-3">
+                <label for="name" class="form-label fw-bold">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="service" class="form-label fw-bold">Service Required</label>
+                <select class="form-select" id="service" required>
+                    <option value="" disabled selected>Choose a service...</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="UI Layout">UI Layout</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 fw-bold">Submit Request</button>
+        </form>
+       <div id="alertBox" class="mt-3 d-none alert alert-success text-center fixed-top-alert" role="alert"></div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+    <p class="m-0">
+        © 2026, Personal Portfolio. Ayesha Siddiqua | All rights reserved. 
+        <span id="datetime" class="ms-2 bg-dark text-md-end"></span>
+    </p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assest/js/app.js"></script>
+</body>
+</html>
