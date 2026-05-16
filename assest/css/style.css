@@ -51,6 +51,16 @@ body {
     height: 350px;
     border: 0;
 }
+.skill-box {
+    transition: 0.3s;
+    background: white;
+}
+.skill-box:hover {
+    transform: translateY(-10px);
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
 /* অ্যালার্ট বক্সকে স্ক্রিনের ওপরে ফিক্সড করার স্টাইল */
 .fixed-top-alert {
     position: fixed;
